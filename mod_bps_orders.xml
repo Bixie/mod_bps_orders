@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>admin@bixie.nl</authorEmail>
 	<authorUrl>www.bixie.nl</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.1.1</version>
 	<description>MOD_BPS_ORDERS_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_bps_orders">mod_bps_orders.php</filename>
