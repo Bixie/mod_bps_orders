@@ -9,4 +9,4 @@ require_once dirname(__FILE__).'/helper.php';
 
 $list = modBPSordersHelper::getList($params);
 require JModuleHelper::getLayoutPath('mod_bps_orders', $params->get('layout', 'default'));
-echo 'huh dus';
+echo 'huh dus ja';
