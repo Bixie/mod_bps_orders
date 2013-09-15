@@ -57,7 +57,7 @@ defined('_JEXEC') or die;
 <?php else : ?>
 	<tbody>
 		<tr>
-			<td colspan="4">
+			<td colspan="5">
 				<p class="noresults"><?php echo JText::_('MOD_BPS_ORDERS_NO_MATCHING_RESULTS');?></p>
 			</td>
 		</tr>
