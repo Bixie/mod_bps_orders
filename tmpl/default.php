@@ -34,9 +34,9 @@ defined('_JEXEC') or die;
 
 				<?php if ($item->link) :?>
 					<a href="<?php echo $item->link; ?>">
-						<?php echo htmlspecialchars($item->orderID.' - '.$item->productNaam, ENT_QUOTES, 'UTF-8');?></a>
+						<?php echo htmlspecialchars($item->id.' - '.$item->productNaam, ENT_QUOTES, 'UTF-8');?></a>
 				<?php else :
-					echo htmlspecialchars($item->orderID.' - '.$item->productNaam, ENT_QUOTES, 'UTF-8');
+					echo htmlspecialchars($item->id.' - '.$item->productNaam, ENT_QUOTES, 'UTF-8');
 				endif; ?>
 			</th>
 			<td class="center">
